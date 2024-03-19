@@ -1,5 +1,9 @@
 {
     "rust-analyzer.linkedProjects": [
         "./my-redis/Cargo.toml"
+    ],
+    "cSpell.words": [
+        "erzeugen",
+        "hervorbringen"
     ]
 }
