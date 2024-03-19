@@ -41,7 +41,6 @@ async fn main() {
                 Set(cmd) => {
                     // The value is stored as `Vec<u8>`
                     db.insert(cmd.key().to_string(), cmd.value().to_vec());
-                    println!("{:?} => {:?}",cmd.key().to_string(),cmd.value().to_vec());
                     Frame::Simple("OK".to_string())
                 }
                 Get(cmd) => {
